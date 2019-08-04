@@ -1,13 +1,10 @@
-body
-{
-background-color: gray;
-color: greenyellow;
+body {
+    background-color: rgba(193, 193, 193, 0.495);
+    color: #044d00;
 }
-.Cette chere Ada
-{border :3px solid rgb(100,73,36);
-box-shadow : 8px 8px 5px black;
-float: right;
-position: absolute;
-top: 100px;
-left: 900px;
+
+#nescss > .container {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 150px;
 }
