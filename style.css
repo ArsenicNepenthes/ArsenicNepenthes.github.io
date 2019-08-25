@@ -2,17 +2,20 @@ body {
     background-color: rgba(193, 193, 193, 0.495);
     color: #044d00;
 }
-
+section
+{
+    display: inline-block;
+}
 #nescss > .container {
     max-width: 980px;
     margin: 0 auto;
     margin-top: 150px;
 }
 
-img {
-    border-image: 3px;
-    border-color: #044d00;
- }
+container img {
+ border-radius: 50%;
+}
+
 head {
     width:885px;
     height:73px;
@@ -63,4 +66,9 @@ div#slider {
             left: 0;
             text-align: left;
             animation: 30s slidy infinite;
+          }
+
+    .message-left
+          {
+            margin-left: 20px;
           }
